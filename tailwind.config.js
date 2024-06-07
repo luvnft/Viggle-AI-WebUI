@@ -42,7 +42,7 @@ module.exports = {
         dark: '#1D2430',
         primary: '#4A6CF7',
         yellow: '#FBB040',
-        'bg-color-dark': '#171C28',
+        'bg-color-dark': '#000000',
         'body-color': {
           DEFAULT: '#788293',
           dark: '#959CB1',

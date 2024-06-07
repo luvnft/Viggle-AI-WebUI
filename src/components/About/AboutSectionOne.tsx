@@ -9,7 +9,7 @@ const checkIcon = (
 );
 
 export const List = ({ text }) => (
-  <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+  <p className="flex items-center mb-5 text-lg font-medium text-body-color">
     <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
       {checkIcon}
     </span>
@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+          <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle title={t('title')} paragraph={t('description')} mb="44px" />
 
@@ -44,7 +44,7 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <a
-                href="https://discord.com/invite/viggle/"
+                href="https://discord.gg/bYRwZQSe"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -56,7 +56,7 @@ const AboutSectionOne = () => {
                       loop
                       autoPlay
                       playsInline
-                      className="mx-auto block"
+                      className="block mx-auto"
                     ></video>
                   </div>
                 </div>

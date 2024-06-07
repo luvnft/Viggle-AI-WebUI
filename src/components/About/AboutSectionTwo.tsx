@@ -9,9 +9,9 @@ const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full px-4 lg:w-1/2">
-            <a href="https://discord.com/invite/viggle/" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/bYRwZQSe" target="_blank" rel="noopener noreferrer">
               <div
                 className="relative mx-auto mb-12 aspect-[360/266] max-w-[500px] text-center lg:m-0 hover:opacity-80"
                 data-wow-delay=".15s"
@@ -23,7 +23,7 @@ const AboutSectionTwo = () => {
                     loop
                     autoPlay
                     playsInline
-                    className="mx-auto block"
+                    className="block mx-auto"
                   ></video>
                 </div>
               </div>
